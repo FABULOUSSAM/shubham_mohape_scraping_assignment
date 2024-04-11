@@ -151,7 +151,7 @@ class Validation:
 if __name__ == "__main__":
     invalid_data_details = []
     product_ids = set()  
-    with open(r'lechocolat-alainducasse\Lechocolat.json', 'r') as f:
+    with open(r'Output\Lechocolat.json', 'r') as f:
         pdp_list = json.load(f)
 
     for index, pdp_data in enumerate(pdp_list, start=1):
